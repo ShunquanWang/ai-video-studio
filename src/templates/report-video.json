@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "title": "A股普涨后的资金分化",
+  "presentationDate": "2026.11.08",
+  "reportDate": "2026.11.06",
+  "header": "市场观察",
+  "verificationNotice": "据提供资料，待核实",
+  "disclaimer": "仅供市场复盘 · 不构成投资建议",
+  "introFrames": 45,
+  "audioPath": "voiceover/report-20261106/clean-narration.wav",
+  "audioEndFrame": 3893,
+  "scenes": [
+    {
+      "sceneId": "opening",
+      "type": "TitleScene",
+      "duration": 237,
+      "props": {
+        "title": "A股市场复盘",
+        "eyebrow": "2026年11月6日报告 · 大盘概况",
+        "cards": [
+          "上证3689.91点",
+          "日内振幅1.49%",
+          "成交9797.12亿"
+        ]
+      }
+    },
+    {
+      "sceneId": "volume",
+      "type": "MetricScene",
+      "duration": 192,
+      "props": {
+        "title": "量能放大19.73%",
+        "view": "columns",
+        "heading": "量能指数（5日均量 = 100）",
+        "bars": [
+          {
+            "label": "5日均量",
+            "value": 100,
+            "text": "100",
+            "cue": 0
+          },
+          {
+            "label": "当日量能",
+            "value": 119.73,
+            "text": "119.73",
+            "cue": 0
+          }
+        ],
+        "changeText": "量价配合偏积极",
+        "changeCue": 1,
+        "statLabel": "近5日累计上涨",
+        "statValue": "+1.05",
+        "statSuffix": "%",
+        "statDescription": "上证指数累计涨幅",
+        "statCue": 2
+      },
+      "note": "量能以5日均量归一化为100；不表示逐日成交变化。",
+      "noteCue": 0
+    },
+    {
+      "sceneId": "breadth",
+      "type": "MetricScene",
+      "duration": 282,
+      "props": {
+        "title": "市场宽度：普涨格局",
+        "heading": "上涨与下跌家数（家）",
+        "bars": [
+          {
+            "label": "上涨",
+            "value": 4869,
+            "text": "4869 家",
+            "cue": 1
+          },
+          {
+            "label": "下跌",
+            "value": 624,
+            "text": "624 家",
+            "cue": 2
+          }
+        ],
+        "changeText": "报告同口径家数对照",
+        "statLabel": "平盘家数",
+        "statValue": "0",
+        "statSuffix": "家",
+        "statDescription": "报告列示平盘为零",
+        "statCue": 3,
+        "view": "donut"
+      }
+    },
+    {
+      "sceneId": "trend",
+      "type": "ComparisonScene",
+      "duration": 285,
+      "props": {
+        "title": "修复与反转需要区分",
+        "left": {
+          "label": "小盘领涨",
+          "detail": "普涨格局确立"
+        },
+        "right": {
+          "label": "均线仍有压制",
+          "detail": "指数仍属修复，尚非趋势反转"
+        },
+        "rightDetailCue": 2
+      }
+    },
+    {
+      "sceneId": "fund-overview",
+      "type": "ExplanationScene",
+      "duration": 300,
+      "props": {
+        "title": "资金面：结构性换手",
+        "body": "概念与行业两个维度观察",
+        "points": [
+          "双净流入，但规模收敛",
+          "通信链集中兑现",
+          "电力设备与半导体承接"
+        ],
+        "pointCues": [
+          {
+            "cue": 1
+          },
+          {
+            "cue": 2
+          },
+          {
+            "cue": 3
+          }
+        ]
+      }
+    },
+    {
+      "sceneId": "communication",
+      "type": "ExplanationScene",
+      "duration": 432,
+      "props": {
+        "title": "通信链：两类口径同向",
+        "body": "交叉核对概念与行业资金方向",
+        "points": [
+          "5G、通信技术、光通信模块",
+          "通信设备、通信网络设备、通信",
+          "板块级集中兑现"
+        ],
+        "pointCues": [
+          {
+            "cue": 1
+          },
+          {
+            "cue": 2
+          },
+          {
+            "cue": 3
+          }
+        ]
+      }
+    },
+    {
+      "sceneId": "inflow-structure",
+      "type": "ExplanationScene",
+      "duration": 378,
+      "props": {
+        "title": "流入集中，尚非全面进攻",
+        "body": "观察流入端的标签与行业分布",
+        "points": [
+          "概念：宽基与风格标签",
+          "行业：电力设备与半导体",
+          "集中于新能源设备与半导体制造"
+        ],
+        "pointCues": [
+          {
+            "cue": 0
+          },
+          {
+            "cue": 1
+          },
+          {
+            "cue": 4
+          }
+        ]
+      },
+      "note": "概念与行业口径存在交叉，不作简单相加。",
+      "noteCue": 2
+    },
+    {
+      "sceneId": "fund-momentum",
+      "type": "DataScene",
+      "duration": 501,
+      "props": {
+        "title": "净流入为正，动能收敛",
+        "view": "comparison",
+        "suffix": "亿",
+        "data": [
+          {
+            "label": "概念资金",
+            "value": 1242.88,
+            "previous": {
+              "value": 12774.81,
+              "cue": 3
+            }
+          },
+          {
+            "label": "行业资金",
+            "value": 270.72,
+            "previous": {
+              "value": 1522.71,
+              "cue": 4
+            }
+          }
+        ]
+      },
+      "note": "概念与行业分别比较，不相加；变化率按报告数值计算，口径待核实。",
+      "noteCue": 4
+    },
+    {
+      "sceneId": "northbound",
+      "type": "ExplanationScene",
+      "duration": 210,
+      "props": {
+        "title": "北向数据：保留信息边界",
+        "body": "报告列示的数据尚不完整",
+        "points": [
+          "当日数据缺失",
+          "前日3391.81亿元，待核实",
+          "暂无法评估边际变化"
+        ],
+        "pointCues": [
+          {
+            "cue": 0
+          },
+          {
+            "cue": 1
+          },
+          {
+            "cue": 2
+          }
+        ]
+      },
+      "note": "前日数值依原报告保留，未作独立核实；不据此推断当日流向。",
+      "noteCue": 0
+    },
+    {
+      "sceneId": "active-directions",
+      "type": "DataScene",
+      "duration": 285,
+      "props": {
+        "title": "主力净流入：开盘啦口径",
+        "suffix": "亿",
+        "highlightIndex": 0,
+        "data": [
+          {
+            "label": "AI应用",
+            "value": 62.32
+          },
+          {
+            "label": "机器人概念",
+            "value": 41.28
+          },
+          {
+            "label": "锂电池",
+            "value": 37.95
+          }
+        ],
+        "view": "ranking"
+      }
+    },
+    {
+      "sceneId": "closing",
+      "type": "OutroScene",
+      "duration": 851,
+      "props": {
+        "title": "核心结论：谨慎追高",
+        "summary": "报告判断：高潮期放量普涨，隐忧仍在。",
+        "takeaways": [
+          "短期追高承压，结构性持有",
+          "降杠杆、兑现浮盈，聚焦最强主线",
+          "跟踪科技与新能源设备的资金持续性"
+        ],
+        "takeawayCues": [
+          4,
+          5,
+          7
+        ]
+      },
+      "note": "以上为所提供报告的研判，非经独立核实的结论。",
+      "noteCue": 0
+    }
+  ]
+}
